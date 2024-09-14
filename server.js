@@ -1,5 +1,4 @@
-import inquirer from 'inquirer';
-const fs = require('fs');
+const inquirer = require('inquirer');
 const express = require('express');
 const { Pool } = require('pg');
 
