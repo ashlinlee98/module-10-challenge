@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "SQL Practice - Employee Tracker Used code from class 24-Stu_Parametarized_Queries",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -11,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.21.0",
     "inquirer": "^10.2.2",
     "pg": "^8.12.0"
